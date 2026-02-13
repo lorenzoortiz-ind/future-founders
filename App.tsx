@@ -7,6 +7,9 @@ import DoubleAgent from './pages/DoubleAgent';
 import Bootcamp from './pages/Bootcamp';
 import Community from './pages/Community';
 import BusinessCenter from './pages/BusinessCenter';
+import About from './pages/About';
+import Podcast from './pages/Podcast';
+import Newsletter from './pages/Newsletter';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -29,6 +32,9 @@ const App: React.FC = () => {
             <Route path="/bootcamp" element={<Bootcamp />} />
             <Route path="/comunidad" element={<Community />} />
             <Route path="/business-center" element={<BusinessCenter />} />
+            <Route path="/nosotros" element={<About />} />
+            <Route path="/podcast" element={<Podcast />} />
+            <Route path="/newsletter" element={<Newsletter />} />
           </Routes>
         </main>
         <Footer />

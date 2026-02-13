@@ -6,7 +6,7 @@ import { NavItem } from '../types';
 
 const navItems: NavItem[] = [
   { label: 'Bootcamp', href: '/bootcamp' },
-  { label: 'Comunidad', href: '/comunidad' },
+  { label: 'Nosotros', href: '/nosotros' },
   { label: 'Business Center', href: '/business-center' },
   { label: 'Doble Agente', href: '/doble-agente' },
 ];
